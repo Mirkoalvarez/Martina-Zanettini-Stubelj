@@ -1,16 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Capabilities from "@/components/Capabilities";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <main id="top" className="relative min-h-screen bg-[#f8faf7] text-emerald-950">
+      <Navbar />
+      <Hero />
+      <Capabilities />
+
+      <footer id="contacto" className="relative py-12 border-t border-emerald-950/10">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-emerald-950/70">
+          <p className="font-heading italic text-lg text-emerald-950">aether — 2026</p>
+          <p className="font-light">Diseño regenerativo · Hecho con bajo carbono.</p>
+        </div>
+      </footer>
+    </main>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
