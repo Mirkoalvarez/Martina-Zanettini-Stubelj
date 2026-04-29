@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
+import React from "react";
 
 interface BlurTextProps {
-  text: string;
+  text?: string;
+  /** Pass pre-built JSX nodes (one per word) to support styled letters inside words. */
+  words?: React.ReactNode[];
   className?: string;
   delay?: number;
   staggerChildren?: number;
@@ -10,12 +13,13 @@ interface BlurTextProps {
 
 const BlurText = ({
   text,
+  words: wordsProp,
   className = "",
   delay = 0,
   staggerChildren = 0.1,
   as = "h1",
 }: BlurTextProps) => {
-  const words = text.split(" ");
+  const words = wordsProp ?? text?.split(" ") ?? [];
 
   const container = {
     hidden: {},
@@ -57,3 +61,4 @@ const BlurText = ({
 };
 
 export default BlurText;
+
