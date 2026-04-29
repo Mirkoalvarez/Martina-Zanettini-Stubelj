@@ -54,7 +54,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 12, filter: "blur(8px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.9, delay: 1.4 }}
-          className="mt-8 max-w-xl text-white/60 text-lg md:text-xl font-light leading-relaxed text-shadow-white-sm"
+          className="mt-8 max-w-xl text-white/90 text-lg md:text-xl font-medium leading-relaxed text-shadow-dark-sm"
         >
           Especialista en sostenibilidad, higiene y seguridad, con un enfoque integral en la preservación ambiental y la gestión eficiente de recursos.
         </motion.p>
