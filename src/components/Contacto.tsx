@@ -168,12 +168,12 @@ const Contacto = () => {
                     <Linkedin className="w-4.5 h-4.5" />
                   </span>
                   <span className="font-light text-sm md:text-base">
-                    linkedin.com/in/martinazanettini
+                    linkedin.com/in/martina-belen-zanettini-stubelj
                   </span>
                 </a>
 
                 <a
-                  href="mailto:martina@ejemplo.com"
+                  href="mailto:zanettini.martina.stubelj@gmail.com"
                   className="flex items-center gap-3 text-emerald-950/80 hover:text-emerald-950 transition-colors group"
                 >
                   <span className="liquid-glass rounded-full w-10 h-10 grid place-items-center shrink-0 group-hover:scale-105 transition-transform">
