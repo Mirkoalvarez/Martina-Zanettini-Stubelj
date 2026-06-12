@@ -21,10 +21,10 @@ const Navbar = () => {
       >
         <div className="liquid-glass-strong rounded-full px-3 py-2 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-3 pl-2">
-            <span className="liquid-glass rounded-full w-12 h-12 grid place-items-center">
-              <span className="font-heading italic text-xl text-emerald-950 leading-none" style={{ fontFamily: "'Fleur De Leah', cursive", position: 'relative', right: '6px' }}>M</span>
+            <span className="liquid-glass rounded-full w-14 h-14 grid place-items-center">
+              <span className="font-heading italic text-2xl text-emerald-950 leading-none" style={{ fontFamily: "'Fleur De Leah', cursive", position: 'relative', right: '6px' }}>M</span>
             </span>
-            <span className="hidden sm:inline font-heading italic text-lg text-emerald-950"><span style={{ fontFamily: "'Fleur De Leah', cursive" }}>M</span> artina <span style={{ fontFamily: "'Fleur De Leah', cursive" }}>Z</span> anettini</span>
+            <span className="hidden sm:inline font-heading italic text-3xl text-emerald-950"><span style={{ fontFamily: "'Fleur De Leah', cursive" }}>M</span> artina <span style={{ fontFamily: "'Fleur De Leah', cursive" }}>Z</span> anettini</span>
           </a>
 
           <ul className="hidden md:flex items-center gap-1">
@@ -32,7 +32,7 @@ const Navbar = () => {
               <li key={l.href}>
                 <a
                   href={l.href}
-                  className="px-4 py-2 rounded-full text-sm text-emerald-950/80 hover:text-emerald-950 hover:bg-white/40 transition-colors"
+                  className="px-4 py-2 rounded-full text-lg text-emerald-950/80 hover:text-emerald-950 hover:bg-white/40 transition-colors"
                 >
                   {l.label}
                 </a>

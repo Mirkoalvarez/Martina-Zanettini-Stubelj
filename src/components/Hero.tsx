@@ -37,14 +37,14 @@ const Hero = () => {
               <><span style={{ fontFamily: "'Fleur De Leah', cursive" }}>M</span> artina</>,
               <><span style={{ fontFamily: "'Fleur De Leah', cursive" }}>Z</span> anettini.</>,
             ]}
-            className="max-w-5xl font-heading italic text-[#00512B] text-balance text-3xl sm:text-5xl md:text-7xl lg:text-[7.5rem] leading-[0.95] tracking-[-0.04em] text-shadow-white"
+            className="max-w-5xl font-heading italic text-balance text-6xl sm:text-6xl md:text-7xl lg:text-[7.5rem] leading-[0.95] tracking-[-0.04em] text-stroke-hero"
             staggerChildren={0.1}
             delay={0.3}
           />
           <BlurText
             as="h2"
             text="Licenciada en Gestión Ambiental."
-            className="max-w-5xl font-heading text-[#00512B]/95 text-balance text-2xl sm:text-4xl md:text-6xl lg:text-[5rem] leading-[0.95] tracking-[-0.04em] text-shadow-white"
+            className="max-w-5xl font-heading text-balance text-5xl sm:text-5xl md:text-6xl lg:text-[5rem] leading-[0.95] tracking-[-0.04em] text-stroke-hero-sm"
             staggerChildren={0.1}
             delay={0.6}
           />
@@ -54,7 +54,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 12, filter: "blur(8px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.9, delay: 1.4 }}
-          className="mt-8 max-w-xl text-white/90 text-lg md:text-xl font-medium leading-relaxed text-shadow-dark-sm"
+          className="mt-8 max-w-xl text-white/90 text-lg md:text-xl font-medium leading-relaxed text-stroke-hero"
         >
           Especialista en sostenibilidad, higiene y seguridad, con un enfoque integral en la preservación ambiental y la gestión eficiente de recursos.
         </motion.p>

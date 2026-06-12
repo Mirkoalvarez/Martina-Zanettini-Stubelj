@@ -125,4 +125,23 @@
   .text-shadow-dark-sm {
     text-shadow: 0 0 12px rgba(0, 0, 0, 0.15), 0 0 20px rgba(0, 0, 0, 0.1);
   }
+
+  /* Hero title — white text with subtle dark stroke for legibility over video */
+  .text-stroke-hero {
+    color: #fff;
+    -webkit-text-stroke: 1.5px rgba(0, 51, 27, 0.55);
+    paint-order: stroke fill;
+    text-shadow:
+      0 0 30px rgba(255, 255, 255, 0.4),
+      0 2px 8px rgba(0, 40, 20, 0.25);
+  }
+
+  .text-stroke-hero-sm {
+    color: #fff;
+    -webkit-text-stroke: 1px rgba(0, 51, 27, 0.45);
+    paint-order: stroke fill;
+    text-shadow:
+      0 0 20px rgba(255, 255, 255, 0.35),
+      0 2px 6px rgba(0, 40, 20, 0.2);
+  }
 }
